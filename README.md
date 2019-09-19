@@ -22,7 +22,7 @@
 hello world
 ```
 
-****
+***
 
 *0632065* **hihi** ~~byebye~~
 
@@ -35,8 +35,6 @@ hello world
 ---
 
 
-![NKUST](NKUST.png "第一科大")
-
 
 |  111|  222|  33 |
 |:----|:---:|----:|
@@ -45,5 +43,28 @@ hello world
 | 1 | 2 | 3 |
 | 1 | 2 | 3 |
 
+
+![NKUST](NKUST.png "第一科大")
+
+
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
+
+```java
+public class CallingMethodsInSameClass
+{
+	public static void main(String[] args) {
+		printOne();
+		printOne();
+		printTwo();
+	}
+
+	public static void printOne() {
+		System.out.println("Hello World");
+	}
+
+	public static void printTwo() {
+		printOne();
+		printOne();
+	}
+}

@@ -34,8 +34,8 @@ hello world
 
 ---
 
-[NKUST](https://www.nkust.edu.tw/var/file/0/1000/img/513/182513897.png[NKUST])
-![NKFUST](NKFUST.jpg "第一科大")
+
+![NKUST](NKUST.png "第一科大")
 
 
 |  111|  222|  33 |

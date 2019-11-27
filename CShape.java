@@ -1,34 +1,35 @@
-abstrast class CShape
-{
-	public static void main(String[] args) {
-		
+abstract class CShape{
+    protected String color;
+    public void setColor(String str){
+        color = str;
     }
-
-	public void show() {
-		color=str;
-	}
-
-	public abstract void show();
-  
+    public abstract void show();
 }
 
 
+class CTriangle extends CShape {
+    private double a;
+    private double b;
+    private double c;
+    private double area;
 
-class Ccircle extends CShape
-{
-  protected double radius;
-  public CCircle(double r){
-  radius=r;
-  }
-
+   public CTriangle(double a,double b,double c){
+     this.a = a;
+     this.b = b;
+     this.c = c;
+   }
+  
   public void show(){
-  System.out.print("color="+color+", ");
-  System.out.println("area="+3.14*radius*radius);
+    area = a * b * 0.5;
+    System.out.println("color:"+color);
+    System.out.println("area:"+area);
   }
+}
 
-
-class CRectangle extends CShape{
+public class triangle{
+  public static void main(String[] args) {
+    CTriangle t = new CTriangle(3, 4, 5);
+    t.setColor("red");
+    t.show();
   }
-
-
 }

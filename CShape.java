@@ -29,7 +29,7 @@ class CTriangle extends CShape {
 public class triangle{
   public static void main(String[] args) {
     CTriangle t = new CTriangle(3, 4, 5);
-    t.setColor("red");
+    t.setColor("yellow");
     t.show();
   }
 }

@@ -38,7 +38,7 @@ class Trianhgle implements Shape{
   }
   
   public string toString{
-  
+    return double.toStirng(getArea());
   }
 }
 

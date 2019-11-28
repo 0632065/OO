@@ -33,7 +33,8 @@ class Trianhgle implements Shape{
   }
   
   public double getArea(){
-  
+    double ans = base*height*0.5;
+    return ans;
   }
   
   public string toString{
